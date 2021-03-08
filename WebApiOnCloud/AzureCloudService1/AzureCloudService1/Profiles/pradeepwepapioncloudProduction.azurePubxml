@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>{"ServiceManagementEndpoint":"https:\/\/management.core.windows.net\/","ResourceManagementEndpoint":"https:\/\/management.azure.com\/","SubscriptionId":"e742d252-9b17-4d6e-823f-f35f95f305a3"}</AzureCredentials>
+    <AzureDeploymentLabel>AzureCloudService1</AzureDeploymentLabel>
+    <AzureEnableRemoteDesktop>False</AzureEnableRemoteDesktop>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <EnableApplicationInsights>True</EnableApplicationInsights>
+    <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
+    <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
+    <AzureHostedServiceLabel>pradeepwepapioncloud</AzureHostedServiceLabel>
+    <AzureHostedServiceName>pradeepwepapioncloud</AzureHostedServiceName>
+    <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureStorageAccountLabel>pradeepwepapioncloud</AzureStorageAccountLabel>
+    <AzureStorageAccountName>pradeepwepapioncloud</AzureStorageAccountName>
+  </PropertyGroup>
+</Project>
