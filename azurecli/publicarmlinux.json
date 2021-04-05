@@ -1,6 +1,6 @@
 {
     "name": "armlinuxvm",
-    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/NetworkWatcherRG/providers/Microsoft.Compute/virtualMachines/armlinuxvm",
+    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/vmresourcesgrp/providers/Microsoft.Compute/virtualMachines/armlinuxvm",
     "type": "Microsoft.Compute/virtualMachines",
     "location": "eastus",
     "properties": {
@@ -46,7 +46,7 @@
         "networkProfile": {
             "networkInterfaces": [
                 {
-                    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkInterfaces/armlinuxvm861"
+                    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/vmresourcesgrp/providers/Microsoft.Network/networkInterfaces/armlinuxvm861"
                 }
             ]
         },
