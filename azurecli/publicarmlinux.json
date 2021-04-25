@@ -1,0 +1,60 @@
+{
+    "name": "armlinuxvm",
+    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/vmresourcesgrp/providers/Microsoft.Compute/virtualMachines/armlinuxvm",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastus",
+    "properties": {
+        "vmId": "cf3d20a3-ede2-49fe-aba1-02d57f7a5c33",
+        "hardwareProfile": {
+            "vmSize": "Standard_B1ls"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "Canonical",
+                "offer": "UbuntuServer",
+                "sku": "18.04-LTS",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "armlinuxvm_disk1_bdfa8a5c89bc41d2b6681b38cb88880b",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/NetworkWatcherRG/providers/Microsoft.Compute/disks/armlinuxvm_disk1_bdfa8a5c89bc41d2b6681b38cb88880b"
+                },
+                "diskSizeGB": 30
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "armlinuxvm",
+            "adminUsername": "azureuser",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": true,
+                "ssh": {
+                    "publicKeys": [
+                        {
+                            "path": "/home/azureuser/.ssh/authorized_keys",
+                            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0iYq+YmOI8gxAd5XAVJX/Rs46\r\nDgC/FGIGT9Hhe7Bv7Dgibgj9KFpQ5hzq4fuorgfk2o+BLGnT+eBO0BdzyPJnOk2w\r\n9WiHD92hUj4Cu3ocNrDj9WSV7APs9U4jQB5TC6G+G1NLPUwAfUyexN2ThouHdpnU\r\nsCR0S9Dakn739CvQq0SqfkZshkG7R4q2zOaDVaRZpsCzqkpcnSBNrd92GffPDyhg\r\npGjqHYsRbjWY+2Mlok6U+lJsnGJXilAoO1ENzBBvR2tKLfIybfvBJs/Laq5f1BHS\r\nQGx3QLhzvSIe6824eDgEit5kMWvF+s3tfhc+0Hon1ZyT+Mws51nu7hSh8DcYEOKE\r\nPKK7FU/yUnI5Uhe7sA8LILF0+Yf0gfI5urhAXKEMtB999mWDjfjYupuKA28ZGUGJ\r\nMZsm8s7wP8B8kBJ9OhB2PbGhHYckjb+5GBT4BntrVH/e5Xo9QcdskwAiJiYopUl6\r\niK7fHeFCrggltp8LcubOEWqvN8VdejDOMnCVma0= generated-by-azure\r\n"
+                        }
+                    ]
+                }
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/acf8be16-4029-4672-bd15-7c4aa64a5a8a/resourceGroups/vmresourcesgrp/providers/Microsoft.Network/networkInterfaces/armlinuxvm861"
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        },
+        "provisioningState": "Succeeded"
+    }
+}
