@@ -1,0 +1,3 @@
+New-AzureRmResourceGroupDeployment -ResourceGroupName $resourceGroupName -Name deploy_vNet -TemplateFile "E:\ARM\vm.json" -TemplateParameterFile "E:\ARM\vmetparameter.json"
+
+New-AzResourceGroupDeployment -ResourceGroupName vmresourcesgrp -TemplateFile E:\ARM\vnet.json -TemplateParameterFile E:\ARM\vnetparameter.json
