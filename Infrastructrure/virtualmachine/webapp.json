@@ -4,7 +4,7 @@
   "parameters": {
     "webAppName": {
       "type": "string",
-      "defaultValue": "webApp-my-WebApp",
+      "defaultValue": "webApp-pradeep",
       "minLength": 2,
       "metadata": {
         "description": "Web app name."
