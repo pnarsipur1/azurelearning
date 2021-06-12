@@ -7,6 +7,8 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService1", "Azure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{247BC985-E55F-4678-9441-79DB821B581F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnitTest", "MyUnitTest\MyUnitTest.csproj", "{0CB30BE2-8A56-471A-802E-BA8A02DC7AEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{247BC985-E55F-4678-9441-79DB821B581F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{247BC985-E55F-4678-9441-79DB821B581F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{247BC985-E55F-4678-9441-79DB821B581F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB30BE2-8A56-471A-802E-BA8A02DC7AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB30BE2-8A56-471A-802E-BA8A02DC7AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB30BE2-8A56-471A-802E-BA8A02DC7AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB30BE2-8A56-471A-802E-BA8A02DC7AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
