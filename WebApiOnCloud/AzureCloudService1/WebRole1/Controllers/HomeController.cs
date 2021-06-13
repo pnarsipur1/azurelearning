@@ -13,7 +13,7 @@ namespace WebRole1.Controllers
             ViewBag.Title = "Home Page";
             if (input.Equals("a"))
             {
-                return View("valid");
+                return View("check");
             }
             else
             {
